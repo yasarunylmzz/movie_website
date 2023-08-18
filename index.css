@@ -55,6 +55,41 @@ body {
   object-fit: cover;
   border-radius: 18px;
 }
+.profile-text-container {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  line-height: 1;
+}
+.toggle {
+  width: 40px;
+  height: 20px;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: space-around;
+}
+.toggle-ball {
+  width: 18px;
+  height: 18px;
+  background-color: black;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  right: 1px;
+}
+
+.toggle i:nth-child(2) {
+  color: goldenrod;
+}
+
+.toggle i:nth-child(1) {
+  color: gray;
+  display: flex;
+  align-items: center;
+}
 
 .menu-list-item:nth-child(1) {
   font-weight: bold;
