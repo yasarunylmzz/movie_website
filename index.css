@@ -44,6 +44,18 @@ body {
   font-weight: bold;
 }
 
+.profile-container {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+.profile-picture {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  border-radius: 18px;
+}
+
 .menu-list-item:nth-child(1) {
   font-weight: bold;
 }
