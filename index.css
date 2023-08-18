@@ -85,6 +85,9 @@ body {
   position: absolute;
   right: 1px;
 }
+.toggle-ball:hover {
+  transition: 0.5s all ease-in-out;
+}
 
 .toggle i:nth-child(2) {
   color: goldenrod;
@@ -278,3 +281,40 @@ body {
 }
 
 /* ! movie list end   */
+
+/*! dark mode start */
+.container.active {
+  background-color: white;
+  color: black;
+}
+
+.navbar.active {
+  background-color: white;
+  color: black;
+}
+
+.sidebar.active {
+  background-color: white;
+  color: black;
+}
+
+.sidebar i.active {
+  background-color: white;
+  color: black;
+}
+.toggle.active {
+  background-color: black;
+}
+.toggle-ball.active {
+  background-color: white;
+  transform: translateX(-20px);
+}
+.toggle-ball.active:hover {
+  transition: 1s all ease-in-out;
+}
+.movie-list-filter select.active {
+  background-color: white;
+  color: #000;
+  border: #000;
+}
+/*! dark mode end */
